@@ -34,6 +34,7 @@ with open(csv_file, 'r') as file:
             'ip': row['DEVICE_IP_ADDRESS'],
             'username': username,
             'password': password,
+            'secret': password,
         }
 
         # Connect to the device
