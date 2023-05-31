@@ -20,7 +20,7 @@ characters = string.ascii_letters + string.digits + special_chars
 new_password = ''.join(random.choice(characters) for _ in range(length))
 
 # Define the CSV file path
-csv_file = 'device_inventory.csv'
+csv_file = 'CISCO-CLI-INVENTORY.csv'
 
 # Initialize a list to store the device names and corresponding password change status
 password_changes = []
